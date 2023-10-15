@@ -9,10 +9,8 @@ public class PurchaseData {
 
 
     public PurchaseData() {
-        // Initialize fields or leave them null by default
-    }
 
-    // Parameterized constructor
+    }
     public PurchaseData(String packageName, String productId, String purchaseToken) {
         this.packageName = packageName;
         this.productId = productId;
@@ -43,7 +41,7 @@ public class PurchaseData {
         this.purchaseToken = purchaseToken;
     }
 
-    // You can also manually override the equals, hashCode, and toString methods if needed.
+
 
     @Override
     public boolean equals(Object o) {
