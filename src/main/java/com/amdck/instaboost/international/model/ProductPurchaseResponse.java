@@ -12,7 +12,7 @@ public class ProductPurchaseResponse {
     private String kind;
     private String regionCode;
 
-    // Getter and setter methods for the fields
+
     public String getPurchaseTimeMillis() {
         return purchaseTimeMillis;
     }

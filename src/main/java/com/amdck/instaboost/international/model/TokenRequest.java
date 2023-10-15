@@ -8,7 +8,7 @@ public class TokenRequest {
     private String client_secret;
 
     public TokenRequest() {
-        // Default no-argument constructor
+
     }
 
     public TokenRequest(String grant_type, String refresh_token, String client_id, String client_secret) {
